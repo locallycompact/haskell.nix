@@ -5,6 +5,7 @@ pkgs:
   {
     # Based on https://github.com/NixOS/cabal2nix/blob/11c68fdc79461fb74fa1dfe2217c3709168ad752/src/Distribution/Nixpkgs/Haskell/FromCabal/Name.hs#L23
     "adns"                               = [ pkgs."adns" ];
+    "llvm-config"                               = [ pkgs."llvm_9" ];
     "alsa"                               = [ pkgs."alsaLib" ];
     "alut"                               = [ pkgs."freealut" ];
     "appindicator-0.1"                   = [ pkgs."libappindicator-gtk2" ];
